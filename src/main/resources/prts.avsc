@@ -1,0 +1,11 @@
+{"namespace": "cn.smallpotato.flink.avro",
+ "type": "record",
+ "name": "EventLogAvroBean",
+ "fields": [
+     {"name": "guid", "type": "long"},
+     {"name": "sessionId",  "type": "string"},
+     {"name": "eventId", "type": "string"},
+     {"name": "timestamp", "type":  "long"},
+     {"name": "eventInfo", "type": {"type":  "map", "values": "string"}}
+ ]
+}

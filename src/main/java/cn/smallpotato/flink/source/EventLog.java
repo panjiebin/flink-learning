@@ -1,4 +1,4 @@
-package cn.smallpotato.source;
+package cn.smallpotato.flink.source;
 
 import java.util.Map;
 

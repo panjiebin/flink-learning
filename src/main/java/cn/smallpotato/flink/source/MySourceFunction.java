@@ -1,4 +1,4 @@
-package cn.smallpotato.source;
+package cn.smallpotato.flink.source;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.RandomUtils;

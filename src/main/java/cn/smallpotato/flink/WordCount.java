@@ -1,4 +1,4 @@
-package cn.smallpotato;
+package cn.smallpotato.flink;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.tuple.Tuple2;
