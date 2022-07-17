@@ -3,7 +3,6 @@ package cn.smallpotato.flink.sink;
 import cn.smallpotato.flink.avro.EventLogAvroBean;
 import cn.smallpotato.flink.source.EventLog;
 import cn.smallpotato.flink.source.MySourceFunction;
-import org.apache.avro.Schema;
 import org.apache.flink.connector.file.sink.FileSink;
 import org.apache.flink.core.fs.Path;
 import org.apache.flink.formats.avro.AvroWriterFactory;
